@@ -1,0 +1,161 @@
+/* css reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* basic */
+.wrap {
+    width: 1200px;
+    margin: 0 auto;
+}
+h1 {
+    font-size: 80px;
+    margin: 40px 0;
+    line-height: 95px;
+    border-bottom: 2px solid;
+    padding-bottom: 20px;
+}
+h2 {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 48px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid;
+    margin-bottom: 16px;
+}
+h2 span {
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 1px;
+    vertical-align: middle;
+    margin-left: 16px;
+    
+}
+.title1 span {
+    color:#A00404;
+}
+.title2 {
+    text-align:center;
+}
+ul {
+    margin-bottom: 24px;
+}
+ul li {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 300;
+}
+/* profile */
+.profile {
+    margin-bottom: 55px;
+}
+.profile h2 {
+    margin-top: 40px;
+}
+/* eduction */
+.education {
+    margin-bottom: 45px;
+}
+.education ul li {
+    margin-bottom: 24px;
+}
+/* skills */
+.skills {
+    padding: 24px 102px;
+    background: #415165;
+    color:#fff;
+    margin-bottom: 80px;
+}
+.skills ul {
+    border-left: 1px solid;
+    padding-left: 24px;
+    margin-left: 53vh;
+}
+.skills ul li {
+    margin-bottom: 8px;
+}
+
+/* experience */
+.experience {
+    margin-bottom: 76px;
+}
+.experience ul {
+    margin-left: 24px;
+    padding-left: 24px;
+    border-left: 1px solid;
+}
+.experience ul li {
+    margin-bottom: 32px;
+}
+.experience h3 {
+    font-size: 24px;
+    font-weight: 500;
+}
+.experience img {
+    margin: 8px 0;
+}
+
+/* footer */
+footer {
+    background: #415165;
+    color: #fff;
+    text-align: center;
+    padding: 24px 0;
+}
+footer .footer-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+footer .footer-inner a {
+    text-decoration: none;
+    color: #fff;
+}
+footer .footer-inner a:hover {
+    text-decoration: underline;
+}
+footer .footer-inner ul li {
+    margin-bottom: 16px;
+}
+footer .footer-inner img {
+    margin-left: 15px;
+}
